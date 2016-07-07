@@ -90,15 +90,16 @@ Zendesk_daily_return = ZEN['Daily Return'].plot(figsize=(10, 4), legend=True, li
 # Now, we want to look at the frequency distributions, so we will use a histogram
 # The histogram is positively skewed so it seems like a good move
 # The first one is by seaborn and the second by pandas
-sb.distplot(ZEN['Daily Return'].dropna(),bins=100,kde=False,color='orange')
+Zendesk_annual_return_dist0 = sb.distplot(ZEN['Daily Return'].dropna(), bins=100, color='orange')
+Zendesk_annual_return_dist0.set_xlim(-0.1, 0.1)
 Zendesk_annual_return_dist = ZEN['Daily Return'].hist(bins=100)
 
 # Analyzing the returns of all the stocks in our list
 # We create a dataframe from the Adjusted Closing Price from all the stocks
 # And then with seaborn we can compare different stocks with correlation
-closing_df = DataReader(tech_list,'yahoo',start,end)['Adj Close']
+closing_df = DataReader(tech_list, 'yahoo', start, end)['Adj Close']
 tech_returns = closing_df.pct_change()
-Amazon_Zendesk_returns = sb.jointplot('AMZN','ZEN',tech_returns,kind='scatter',color='seagreen')
+Amazon_Zendesk_returns = sb.jointplot('AMZN', 'ZEN', tech_returns, kind='scatter', color='seagreen')
 
 
 
