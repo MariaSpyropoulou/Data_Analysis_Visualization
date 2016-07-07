@@ -4,7 +4,7 @@ import sqlite3
 # This application reads an iTunes export file in XML and
 # produces a properly normalized database
 # So first we create a connection and give the name of the db
-conn = sqlite3.connect('tracksdb.sqlite')
+conn = sqlite3.connect('trackdb.sqlite')
 # Then we create a cursor object, through which we will be able to give commands
 cur = conn.cursor()
 
