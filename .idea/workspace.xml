@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5ccab11-f733-47b3-b5b8-cdaeba4491ac" name="Default" comment="web scraping">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-scraping-2/WebScraping.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-scraping-2/WebScraping2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-scraping-2/WebScraping3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-scraping-2/WebScraping4.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-scraping-2/WebScraping5.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-scraping-2/__init__.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="c5ccab11-f733-47b3-b5b8-cdaeba4491ac" name="Default" comment="web scraping" />
     <ignored path="Data-Analysis-Visualization.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
